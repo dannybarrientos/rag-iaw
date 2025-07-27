@@ -195,5 +195,5 @@ El sistema RAG se construye siguiendo una serie de estrategias clave, detallando
 
 ## Entregables
 
-El entregable principal de este proyecto es el archivo Jupyter Notebook (`rag_system_current.ipynb`) funcional y bien documentado, que contiene todo el código y las explicaciones necesarias para replicar y entender el sistema RAG en su configuración actual.
+El entregable principal de este proyecto es el archivo Jupyter Notebook (`rag_system.ipynb`) funcional y bien documentado, que contiene todo el código y las explicaciones necesarias para replicar y entender el sistema RAG en su configuración actual.
 ````
