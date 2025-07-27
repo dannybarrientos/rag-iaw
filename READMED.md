@@ -1,10 +1,19 @@
-# Sistema RAG para Documento Bre-B
+# Sistema RAG para Documento Bre-B - Configuración Actual
 
 ## Descripción del Proyecto
 
 Este proyecto implementa un sistema de **Generación Aumentada por Recuperación (RAG - Retrieval-Augmented Generation)** diseñado para responder preguntas sobre el documento `bre-b.txt`. El objetivo principal es construir un sistema de Preguntas y Respuestas (QA) que no solo genere respuestas coherentes, sino que también **cite las fuentes específicas del documento original** que fueron utilizadas para formular dichas respuestas, garantizando trazabilidad y reduciendo "alucinaciones".
 
 El sistema está construido en un entorno de Jupyter Notebook, lo que facilita la exploración paso a paso de cada componente del pipeline RAG. Esta configuración es la **versión base**, optimizada para ser ligera y compatible con la mayoría de los sistemas, incluyendo aquellos que solo disponen de CPU.
+
+---
+
+## Arquitectura del Sistema RAG
+
+Aquí se visualiza la arquitectura y los componentes clave de este sistema RAG, desde la instalación hasta las capacidades del chatbot:
+![Arquitectura del Sistema RAG](image/arquitectura.jpg)
+
+*Nota: Aunque la imagen muestra capacidades avanzadas como Agentes Personalizados y otras bases de datos vectoriales (Chroma, Pinecone), la implementación actual de este proyecto se enfoca en la funcionalidad principal de RAG utilizando FAISS como vector store.*
 
 ---
 
