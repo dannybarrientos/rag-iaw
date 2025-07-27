@@ -1,0 +1,47 @@
+# Entornos virtuales
+venv/
+.env/
+env/
+
+# Archivos de Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.pyc
+
+# Caché y archivos temporales de Python
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.coverage
+
+# Datos procesados o generados que no deben estar en el control de versiones
+/data/processed/
+/data/interim/
+/data/external/
+
+# Modelos descargados o generados (pueden ser grandes)
+/models/
+
+# Índices del vector store (FAISS, Chroma, etc.)
+# Si guardas el vector store localmente, descomenta la línea correspondiente
+# faiss_index_bre_b/
+# .chroma/
+
+# Archivos de logs
+*.log
+
+# Archivos de configuración con credenciales (si aplica)
+*.ini
+*.json
+*.yaml
+*.yml
+*.env
+
+# Archivos específicos de IDEs
+.vscode/
+.idea/
+*.iml
+
+# Archivos específicos del sistema operativo
+.DS_Store
+Thumbs.db
